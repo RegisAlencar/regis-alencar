@@ -1,0 +1,105 @@
+/* CSS do cabeçalho */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-imagem img{
+    width: 120px;
+    height: 120px;
+}
+
+.container-logo{
+    display: flex;
+    align-items: center;   
+}
+
+.logo-texto{
+    margin-left:  20px; 
+    color: rgb(169 126 66);
+}
+.menu li{
+ display: inline-block ;
+ margin: 0 10px;
+
+}
+
+.menu li a{
+ font-size: 20px;
+ text-decoration: none;
+ color: rgb(169 126 66);
+  padding: 5px 5px;
+}
+
+.login{
+    display: inline-block;
+    margin-left:  20px;
+}
+.login button{
+    font-size: 20px;
+ text-decoration: none;
+ color: rgb(169 126 66);
+}
+
+#criar{
+    padding: 5px 10px;
+    background-color:#ffffff;
+    border-radius: 10px;
+}
+
+#criar:hover{
+    background-color: rgb(219, 219, 219)
+}
+#entrar{
+    margin-left: 10px;
+    padding: 10px 15px;
+    background-color:rgb(169 126 66);
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+#entrar:hover{
+    background-color:burlywood;
+}
+
+@media screen and (max-device-width:375px) {
+ header{
+     background-color: white;
+     width:100%;
+     float: left;
+     display:grid;
+     position:relative;
+
+ }  
+
+ .menu ul{
+     display: grid;
+ }
+ .menu li a{
+     display: grid;
+     font-size: 90%;
+
+ }
+
+ .login{
+    margin-right: 15px;
+    width: 50%;
+ }
+
+ #entrar{
+     margin-left: 16px ;
+     margin-top: 10px;
+ }
+} 

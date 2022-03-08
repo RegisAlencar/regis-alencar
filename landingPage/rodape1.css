@@ -1,0 +1,92 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+/* responsividade para tela de tablet */
+
+@media screen and (max-width:768px){
+    *{
+        margin:0px;
+        padding:0px;
+        box-sizing: border-box;
+    }
+    .container-cidade-tablet{
+        display:flex;
+        /* background-color:rgb(168, 112, 112); */
+        width:100%;
+        height:40px;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .container-cidades{
+        display:none;
+    }
+    .container-cidade-tablet input{
+        width:200px;
+    }
+    .container-outras-coisas{
+        justify-content: center;
+        align-items: center;
+    }
+    .container-4food-redes-sociais{
+        display:flex;
+        align-items: center;
+        /* margin-top:35px;
+        width:100%;
+        height:80px; */
+        box-sizing: border-box;
+    }
+    .container-4food-redes-sociais img{
+        width:30px;
+        height:30px;
+    }
+}
+
+
+
+/* responsividade para iphone 6/7/8  abaixo*/
+
+
+
+@media screen and (max-width:375px){
+    *{
+        margin:0px;
+        padding:0px;
+    }
+
+    .container-cidade-tablet{
+        display: grid;
+        grid-template-rows: 1fr;
+        row-gap: 10px;
+        margin-bottom:50px;
+        display:none;
+
+    }
+    .container-cidade-tablet button{
+        width:50px;
+    }
+    .container-4food-1{
+        display:grid;
+        height:20px;
+        align-items: center;
+        display: none;
+    }
+    .container-outras-coisas{
+        display:grid;
+        grid-template-columns: 1fr;
+    }
+    .direitos-reservados{
+        font-size:12px;
+    }
+    .container-4food-redes-sociais{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-left: 40px;
+    }
+
+
+
+} 

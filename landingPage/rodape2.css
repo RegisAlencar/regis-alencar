@@ -1,0 +1,65 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.cidades{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top:30px;
+
+}
+.ul{
+
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-row-gap:10px;
+    align-items: center;
+}
+li{
+    height:30px;
+    list-style-type: none;
+    text-align: center;
+}
+footer p{
+    font-size: 20px;
+}
+.container-cidades{
+    height:200px;
+}
+.container-4food-1{
+    margin-top:30px;
+}
+.container-outras-coisas{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.container-4food-redes-sociais ul{
+    display: flex;
+    gap:40px;
+    padding-top:20px;
+}
+
+.direitos-reservados{
+    display:flex;
+    justify-content: center;
+    width:100%;
+    height:20px;
+}
+
+.container-4food-redes-sociais img{
+    width:30px;
+    height:30px;
+}
+.container-cidade-tablet{
+    display:none;
+}
+
+.container-cidades p{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-4food-1 li{
+    text-align: center;
+}
