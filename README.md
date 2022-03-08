@@ -2,7 +2,7 @@ Me chamo Regis, formado em comissário de vôo na área da aviação civil e atu
 
 Estudando...
 
-Front-End
+Front-End:
 CSS3, HTML, JavaScript, ReactJS, Python.
 
 <div>
